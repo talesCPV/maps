@@ -1,0 +1,134 @@
+    body {
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+/* ************************** */
+/* *********  MENU  ********* */
+/* ************************** */
+
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        background-color: #555;
+        height: auto;
+        min-height: 500px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a#btn_menu {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+
+    .topnav a#btn_menu:hover {
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
+    li{
+        height: 40px;
+        padding: 15px 0 0 15px;
+    }
+
+    .menu ul {
+        position: relative;
+        display: none;
+        padding:  0 30px;
+        margin: 0;
+    }
+  
+    .menu ul ul li{
+        display: none;
+        margin: 0;
+    }
+
+    .menu ul ul li:hover{
+        background-color: #4CAF50;
+        color: black;
+    }
+
+   .menu ul li:hover {
+        cursor: pointer;
+        width: 100%;
+    }
+  
+    .menu ul:hover li{
+        display: block;
+    }
+
+    .menu ul li{
+        list-style-type: none;
+        display: block;
+    }
+
+/* ************************** */
+/* ******  FIM MENU  ******** */
+/* ************************** */
+
+/*Definido cor das linhas pares*/
+.tb_ranking tr:nth-child(even) {background: #EEE}
+ 
+/*Definindo cor das Linhas impáres*/
+.tb_ranking tr:nth-child(odd) {background: #FFF} 
+
+#tbTelemetria input{
+    max-width: 100px;
+}
+
+.title{
+    background-color: chocolate;
+    text-align: center;
+    width: 100%;
+    display:inline-block
+}
+
+#user{
+    display: inline;
+    float: right;
+    padding-right: 40px;
+}
+
+#screen_control{
+    position: relative;
+}
+
+#map{
+    background-color: #333;
+    position: relative;
+    height: 500px;
+}
+
+#range{
+    width: 100%;
+    background-color: #4CAF50;
+}
+
+#range input{
+    margin: 0;
+    padding: 0;
+    width: 49%;
+}

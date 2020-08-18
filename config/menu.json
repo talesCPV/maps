@@ -1,0 +1,242 @@
+{
+	"menu": [
+	 	{"modulo": "Segmentos",
+		 "link": "#",
+		 "icone": "fa fa-edit",
+		 "id": "menuSegmentos",
+		 "perm": [10,1],
+		 "itens": [	
+		 			{
+						"nome": "Criar Segmento",
+						"link": "#",
+				    		"id": "menu_novo_seg",
+						"perm": [10,1]
+					},
+		 			{
+						"nome": "Meus Segmentos",
+						"link": "#",
+				    		"id": "menu_meus_seg",
+						"perm": [10,1]
+					}
+
+		 		  ]
+		},
+	 	{"modulo": "Atleta",
+		 "link": "#",
+		 "icone": "fa fa-search",
+		 "id": "menuPesquisa",
+		 "perm": [10,1],
+		 "itens": [
+
+		 			{
+						"nome": "Calendário",
+						"link": "#",
+				    		"id": "menu_calendario",
+						"perm": [10]
+					},
+		 			{
+						"nome": "Minhas Atividades",
+						"link": "#",
+				    		"id": "menu_minhas_atv",
+						"perm": [10]
+					},
+		 			{
+						"nome": "Controle",
+						"link": "#",
+				    		"id": "menu_controle",
+						"perm": [10]
+					},
+		 			{
+						"nome": "Planos de Treinamento",
+						"link": "#",
+				    		"id": "menu_edtguidao",
+						"perm": [10]
+					},
+					{
+						"nome": "Perfil do Usuário",
+						"link": "#",
+				    		"id": "menu_atleta_conf",
+						"perm": [10,1]
+					}
+
+	
+		 		  ]
+
+		},
+		{"modulo": "Explorar",
+			"link": "#",
+			"icone": "fa fa-search",
+			"id": "menuPesquisa",
+			"perm": [10],
+			"itens": [
+   
+						{
+						   "nome": "Segmentos",
+						   "link": "#",
+							   "id": "menu_edtquadro",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Pesquisa de Segmentos",
+						   "link": "#",
+							   "id": "menu_edtrelacao",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Pesquisa de Atletas",
+						   "link": "#",
+							   "id": "menu_edtselim",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Clubes",
+						   "link": "#",
+							   "id": "menu_edtguidao",
+						   "perm": [10,1]
+					   },
+					   {
+						   "nome": "Apps",
+						   "link": "#",
+							   "id": "menu_edtgarfo",
+						   "perm": [10,1]
+					   }
+   
+	   
+					  ]
+   
+		   },
+		   {"modulo": "Ranking",
+			"link": "#",
+			"icone": "fa fa-search",
+			"id": "menuPesquisa",
+			"perm": [10],
+			"itens": [
+   
+						{
+						   "nome": "Novo Ranking",
+						   "link": "#",
+							   "id": "menu_edtquadro",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Classificações",
+						   "link": "#",
+							   "id": "menu_edtrelacao",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Histórico",
+						   "link": "#",
+							   "id": "menu_edtselim",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Desafios",
+						   "link": "#",
+							   "id": "menu_edtguidao",
+						   "perm": [10,1]
+					   },
+					   {
+						   "nome": "Convide seus Amigos",
+						   "link": "#",
+							   "id": "menu_edtgarfo",
+						   "perm": [10,1]
+					   }
+   
+	   
+					  ]
+   
+		   },
+		   {"modulo": "Treinos",
+			"link": "#",
+			"icone": "fa fa-search",
+			"id": "menuPesquisa",
+			"perm": [10,1],
+			"itens": [
+   
+						{
+						   "nome": "GPX Upload",
+						   "link": "#",
+							   "id": "menu_GPXupload",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Meus Treinos",
+						   "link": "#",
+							   "id": "menu_meusroles",
+						   "perm": [10,1]
+					   },
+						{
+						   "nome": "Meus KOMs",
+						   "link": "#",
+							   "id": "menu_edtselim",
+						   "perm": [10]
+					   },
+						{
+						   "nome": "Meus Segmentos",
+						   "link": "#",
+							   "id": "menu_meus_seg2",
+						   "perm": [10]
+					   },
+					   {
+						   "nome": "Gráficos",
+						   "link": "#",
+							   "id": "menu_edtgarfo",
+						   "perm": [10]
+					   }
+   
+	   
+					  ]
+   
+		   }
+   
+   
+   
+	],
+	"access": [
+		{"url": "pesq_ped.php",
+		"open": [10,4,3],
+		"edit": [10,4,3]
+		},
+		{"url": "pesq_prod.php",
+		"open": [10,4,3],
+		"edit": [10,4,3]
+		},
+		{"url": "pesq_agenda.php",
+		"open": [10,4,3],
+		"edit": [10,4,3]
+		},
+		{"url": "pesq_anafin.php",
+		"open": [10,4,1],
+		"edit": [10,4]
+		},
+		{"url": "pesq_ent.php",
+			"open": [10,4,3],
+			"edit": [10,4]
+		},		
+		{"url": "cad_lanc.php",
+		"open": [10,4],
+		"edit": [10,4]
+		},
+		{"url": "cad_tinta.php",
+		"open": [10,4,3],
+		"edit": [10,4]
+		},
+		{"url": "cad_etq.php",
+		"open": [10,4,3],
+		"edit": [10,4,3]
+		},
+		{"url": "cad_agenda.php",
+		"open": [10,4,3],
+		"edit": [10,4,3]
+		},
+		{"url": "cad_emp.php",
+		"open": [10,4,3],
+		"edit": [10,4]
+		},
+		{"url": "cad_prod.php",
+		"open": [10,4,3],
+		"edit": [10,4,3]
+		}
+	]		
+}

@@ -1,0 +1,245 @@
+@charset "UTF-8"; 
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{margin: 0; padding: 0;}
+
+body {
+  background: #333; /* fallback for old browsers */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.cabecalho {
+  background:#4CAF50;
+  top: 0;
+  z-index: 100;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.estilo input, .estilo select, .tb_ranking{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.estilo button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #2E2E2E ;  /* BOTÃO */
+  width: 150px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tb_ranking{
+  text-align: left;
+  background: #FFF
+}
+/*Definido cor das linhas pares*/
+.tb_ranking tr:nth-child(even) {background: #EEE}
+ 
+/*Definindo cor das Linhas impáres*/
+.tb_ranking tr:nth-child(odd) {background: #FFF} 
+
+.form button:hover{
+  background: rgb(76, 78, 76); /* BOTÃO APERTADO */
+}
+
+img:hover  {
+  cursor: pointer;
+}
+
+#ckbZoom{
+margin-top: 8px;
+float: right;
+opacity: 0;
+}
+
+#slider-range{
+  background-color: cornflowerblue;
+  color: #f35a2b;
+}
+
+#seg_div table{
+  width: 100%;
+  padding: 3% ;
+  text-align: left;
+  text-transform: uppercase;
+}
+#seg_div table tr:hover {
+  cursor: pointer;
+  background-color: #c0c0c0;
+}
+
+#maparea{
+  /*float: left;*/
+  /*position: fixed;*/
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
+.logo{
+  position: absolute;
+  z-index: 30;
+  opacity: 0.5;
+  width: 100%;
+
+}
+
+.logo img{
+  float: right;
+  width:100px; /* you can use % */
+  height: auto;
+  margin-right: 2%;
+}
+
+#area_util {
+  max-width: 1300px;
+  margin: auto;
+}
+
+#map {
+  text-align: center;
+  z-index: 29;
+  /*height: 500px;*/
+  height: 500px;
+  width:100% ; 
+  margin: 0px auto;
+  border-radius: 15px;
+}
+
+#screen_control{
+  /*float: right;*/
+  text-align: center;
+  height: auto;
+  padding-bottom: 5vh;
+  width: 100%;
+  margin: 10vh 5vh 2vh 0;
+  background-color: #4CAF50;
+  border-radius: 15px;
+}
+
+#controlmap{
+  margin: 20px;
+  height: 3vh;
+}
+
+#mapLabel {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#chart_div{
+  margin: auto;
+  margin-top: 20px;
+  width: 80%; 
+  height: 200px;
+}
+
+/* MENU */
+
+  .menu{
+    list-style:none; 
+    /*border:1px solid #c0c0c0; */
+    text-align: center;
+    /*float:left; */
+  }
+  
+  .menu li{
+    position:relative; 
+    float:left; 
+    border-right:1px solid #c0c0c0; 
+    background-color:rgb(219, 219, 219); 
+  }
+  
+  .menu li a{
+    color: #2E2E2E;
+    text-decoration:none; 
+    padding:6px 10px; 
+    display:block;
+  }
+   
+  .menu li a:hover{
+    background:rgb(41, 33, 33); 
+    color:#fff; 
+    text-shadow:0px 0px 5px #fff; 
+  }
+  
+  .menu li  ul{
+    position:absolute; 
+    top:31px; 
+    display:none;
+  } 
+  
+  .menu li:hover ul{
+    display:block;
+  }
+  
+  .menu li ul li{
+    border:2px solid #c0c0c0; 
+    display:block; 
+    width:150px;
+  }
+
+  .top_bar {
+    width: 100%;
+    height: auto;
+   /* display: flex;*/
+    list-style-type: none;
+    padding: 0px 20px;
+    background-color:#4CAF50; /* COR DA BARRA*/
+   }
+  
+   .top_bar::after {
+      /*content: '';*/
+      flex-grow: 1;
+      order: 0;
+    }
+  
+   .top_bar_rigth {
+      float: right;
+      color: #131010;
+   }
+  
+   .top_bar_rigth a{
+      text-decoration: none;
+   }
+  
+  .top_bar_left {
+      /*background-color: #2E2E2E; /* COR DA BARRA */
+      color: #43ce27; 
+   }
+
+ /* **************** */ 
+
+
+
+
+
